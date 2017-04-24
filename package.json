@@ -1,0 +1,22 @@
+{
+  "name": "egghead-d3v4",
+  "version": "0.0.1",
+  "description": "Will eventually do something",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbuchanan/kaacSlideDeck"
+  },
+  "homepage": "https://github.com/wbuchanan/kaacSlideDeck",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
