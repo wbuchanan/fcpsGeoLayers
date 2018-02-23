@@ -2,7 +2,7 @@ var layers = [ "School Board", "Neighborhood Associations", "Magistrates", "Elem
                 "State Representatives", "State Senators", "Urban County Officials", "Voting Precincts" ],
 schoolYears = ["[ALL]", "2016-2017", "2017-2018"],
 geoLayers = d3.select("body").append("div"),
-file = '../data/updatedGeoJSON.json',
+file = 'data/updatedGeoJSON.json',
 geoms = [];
 
 var geoSelector = geoLayers.text("Select the geographical data layer : ")
